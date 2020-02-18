@@ -10,7 +10,7 @@ img{
 }
 /*header*/
 .header{
-    background-image: url(/images/background.png);
+    background-image: url(images/background.png);
     height:92vh;
     background-position: center;
     background-repeat: no-repeat;
