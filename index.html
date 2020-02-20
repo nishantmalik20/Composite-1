@@ -7,36 +7,120 @@
 		<meta name="author" content="Nishant Malik">
         <meta name="description" content="Remaking of TripAdvisor for Composite 1">
 		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="stylesheet" href="#">
-		<link rel="stylesheet" href="CSS/style.css">
+        <link rel="stylesheet" href="css/reset.css">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/home.css">
     </head>
-    <header class="header">
-        <div class="nav-wrapper">
-            <div class="logo"> 
-                <img class="logo-top" src="images/logo.svg" alt="logo">
-            </div> 
+    <body>
+        <header class="main-head">
+            <div class= "nav-wrapper universal-width">
+                <div class="logo"> 
+                    <a href="index.html"><img class="logo-top" src="images/logo.svg" alt="logo"></a>
+                </div> 
+    
+                <nav class="header-naivgation">
+                    <ul class="un-list">
+                        <li><a href="#"><img src="images/guides.svg" alt="guides" class="nav_menu_img"><span class="menu-item">Guides</span></a></li>
+                        <li><a href="#"><img src="images/lucky.svg" alt="lucky" class="nav_menu_img"><span class="menu-item">Feeling Lucky</span></a></li>
+                        <li><a href="#"><img src="images/profile.svg" alt="profile" class="nav_menu_img"><span class="menu-item">My Page</span></a></li>
+                        <li><a href="#"><img src="images/canada.svg" alt="region" class="nav_menu_img"><span class="menu-item">Region</span></a></li>
+                        <li><a href="#"><img src="images/fire.svg" alt="popular" class="nav_menu_img"><span class="menu-item">Popular</span></a></li>
+                    </ul>
+                </nav>
+                <div class="nav_button">
+                    <button class="login-signup-button">Log In</button>
+                    <button class="login-signup-button">Sign Up</button>
+                </div>
+                
+            </div>
+            <div class="search"> 
+                <input type="text" class="input-type" placeholder="search here...">
+                <button class="binoculars"><img class="searchimage" src="images/search.svg" alt="search"></button>
+            </div>
+        </header>
 
-            <nav>
-                <ul class="navigation">
-                    <li><img src="images/guides.svg" alt="profile" class="navigation_image"><span>Guides</span></li>
-                    <li><img src="images/lucky.svg" alt="profile" class="navigation_image"><span>Feeling Lucky</span></li>
-                    <li><img src="images/profile.svg" alt="profile" class="navigation_image"><span>My Page</span></li>
+        <main>
+            <h1>Trip<span class="advisor">Advisor</span>: Your Way To Go Partner</h1>
+            <nav class="universal-width">
+                <ul class="hotel un-list">
+                    <li><a href="#"><img src="images/flights.svg" alt="guides" class="nav_menu_img"><span class="menu-item">Flights</span></a></li>
+                    <li><a href="#"><img src="images/rest.svg" alt="lucky" class="nav_menu_img"><span class="menu-item">Restaurents</span></a></li>
+                    <li><a href="#"><img src="images/hotels.svg" alt="profile" class="nav_menu_img"><span class="menu-item">Hotels</span></a></li>
+                    <li><a href="#"><img src="images/rentals.svg" alt="region" class="nav_menu_img"><span class="menu-item">Rentals</span></a></li>
+                    <li><a href="#"><img src="images/more.svg" alt="popular" class="nav_menu_img"><span class="menu-item">More</span></a></li>
                 </ul>
             </nav>
-            <div class="buttonlogin">
-                <button class="button">Log In</button>
-                <button class="button">Sign Up</button>
+            <section class="universal-width">
+                <img class="quote" src="/images/travel-far.svg" alt="travel far enough">
+                <h2>Destination And Packages</h2>
+                <p>Adventure is relative. To some, it’s a relaxed stroll through a National Park with a naturist or an awe-inspiring hot air balloon ride over the pyramids at sunset. To others, it’s kayaking an ice shelf in Antarctica or a spirited trek up a volcano at dawn. We know that adventure is personal, and that’s why we’ve got it covered – from mild to wild. Topdeck, Adventures, Tours, Vacations are all synonymous with incredible travel experiences! This month, get off the beaten path with local experts, no matter your travel style. Each of our dynamic travel tour partners is poised to bring you the adventure of a lifetime, and change the way you travel. Enjoy the safety, value and convenience of an escorted adventure tour today, and save.<br>
+                    Travel is more than just getting from A to B and seeing the sights - it's about experiencing them and loving the journey. To get to know a country is to meet its people and to connect with the very fabric of their culture through stories, food and art. <br>
+                    Hear that? That’s the call of the wild. Get out there! <br>
+                    Book your tour today with our handwoven Destination Packages.
+                </p>
+                <div class="packages">
+                    <img src="images/dubai.png" alt="dubai-tour">
+                    <img src="images/milan.png" alt="milan-tour">
+                    <img src="images/santorini.png" alt="santorini-tour">
+                </div>
+            </section>
+            <section class="why-tripadvisor universal-width">
+                <h2>Why People Use TripAdvisor</h2>
+                <p>Trip Advisor is a unique, timely, populist resource with both reviews and photographs posted by travelers. <br>
+                    Trip Advisor enables a variety of opinions to be voiced. <br>
+                    Functionality has been added so users can now book hotels, flights, vacation rentals, restaurants and directly from the site. Hotel managers have the option to respond to reviews, good and bad.</p>
+                <img src="images/User-Persona.png" alt="User-Persona">
+            </section>
+            <section class="universal-width">
+                <h2>Posts From Our Community</h2>
+                <img class="community-post" src="images/community.png" alt="posts-from-community">
+                <article>
+                    <img class="community-photos" src="images/kerala.jpg" alt="Kerala">
+                    <h3>NISHANT MALIK</h3>
+                    <p>All good Indian stories start with a queen. In the princely days before Independence, Kovalam’s story starred a quiet fishing beach, an un- assuming maharani (queen) who found the area pleasing and a clifftop palace built for her to while away the monsoon. Years later, locals followed the queen’s lead, with picnics, and hippies weren’t far behind. Now paths run through palm-tree groves to guesthouses, beach- front restaurants serve up the morning haul and beach-umbrella wallahs offer shade and lounge chairs.</p>
+                    <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook.svg" alt="facebook"></a>
+                    <a href="https://web.whatsapp.com/"><img class="social-media" src="images/whatsapp.svg" alt="whatsapp"></a>
+                </article>
+                <article>
+                    <img class="community-photos" src="images/france.jpg" alt="France">
+                    <h3>MILOARD PICASSO</h3>
+                    <p>In France, cheese is life. A commendable reason to visit in itself (yes, cheese tourism is a real thing) adding a little (okay, more than a little) fromage to your picnic basket is standard practice. Instead of sticking to well-known favourites you can get at home (no offence to brie and camembert) use your picnic as an opportunity to taste a little from the different regions of France. While bread and cheese is great, you’d be wise to balance out your picnic basket with some lighter bites.</p>
+                    <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook.svg" alt="facebook"></a>
+                    <a href="https://web.whatsapp.com/"><img class="social-media" src="images/whatsapp.svg" alt="whatsapp"></a>
+                </article>
+                <article>
+                    <img class="community-photos" src="images/switzerland.jpg" alt="Switzerland">
+                    <h3>FELICE DA VINCI</h3>
+                    <p>There’s no need to rush your visit to Zurich, Switzerland. Take a short day trip to this picturesque waterfront city of Zurich, and spend your time relaxing by the lake or perusing one of its many museums. If you want to spend your day learning the country’s history, then check out the Swiss National Museum. This is a collection of three museums — the National Museum Zurich, the Forum of Swiss History Schwyz, and the Collections Center.</p>
+                    <a href="https://www.facebook.com/"><img class="social-media" src="images/facebook.svg" alt="facebook"></a>
+                    <a href="https://web.whatsapp.com/"><img class="social-media" src="images/whatsapp.svg" alt="whatsapp"></a>
+                </article>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="rebrand">
+                <a href="#"><img src="images/rebranded-logo.svg" alt="altered-logo"></a>
+                <div>
+                    <div class="share-via">
+                        <p class="footer-para">Share Via:</p>
+                    </div>
+                    <div class="share-logos">
+                        <img src="images/whatsapp.svg" alt="whatsapp">
+                        <img src="images/facebook.svg" alt="facebook">
+                        <img src="images/instagram.svg" alt="instagram">
+                    </div>
+                </div>
             </div>
-        </div>
+            <div class="footer-terms">
+                <p>Terms and Conditions ©
+                TripAdvisor LLC is not a booking agent or tour operator, and does not charge any service fees to users of our site. Our partners (airlines, travel providers, and booking agents) who list airfare, tours, and travel packages on TripAdvisor are required to include all fees tand surcharges in their listed prices. Examples include the Federal September 11th Security Fee, international departure and arrival taxes and fees, federal excise tax, and other service, handling and miscellaneous fees and surcharges. When you book with one of our partners, please be sure to check their site for a full disclosure of all applicable fees as required by the U.S. Department of Transportation. Airfares are generally quoted per person in USD unless otherwise noted.
+                For your convenience, TripAdvisor LLC calculates an average price for each hotel, which is based on the rates of available rooms obtained from our book- ing partners. For tours and attractions, the price displayed is usually the lowest available per person adult price. For any travel packages or deals listed, TripAdvisor LLC does not guarantee any specific rates or prices. In addition, average hotel prices are updated nightly and displayed in your preferred currency using prevailing conversion rates. Since these converted prices are estimates, please check with the booking site for the exact amount and currency.
+                Furthermore, TripAdvisor LLC makes no guarantees for availability of prices advertised on our site. Listed prices may require a stay of a particular length or have blackout dates, qualifications or restrictions.
+                TripAdvisor LLC is not responsible for content on external web sites. Taxes, fees not included for deals content.</p>
+                <img src="images/van.svg" alt="van">
+
+            </div>
+        </footer>
         
-    </header>
-    <body>
-        <div class="search"> 
-            <input type="search" class="input-type" placeholder="search here...">
-            <img class="searchimage" src="images/search.svg" alt="search">
-        </div>
 	</body>
 </html>
-
-
-
