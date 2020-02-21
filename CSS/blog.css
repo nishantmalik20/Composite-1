@@ -12,6 +12,8 @@ body{
 }
 .text-orange{color: #ff6e36;}
 .santorini-fromtop{border-radius: 6em;}
+
+/* BLOG */
 .milorad{
     color: lightseagreen;
     font-size: 3em;
@@ -21,7 +23,6 @@ body{
 .milorad-nameimage{
     display: flex;
     justify-content: space-around;
-    /* justify-content: space-between; */
 }
 .milorad-nameimage img{
     border-radius: 10em;
@@ -81,6 +82,7 @@ body{
 .comment-name{
     color: lightseagreen;
 }
+/* GRID */
 .container {
 	background-color: grey;
 	width: 0 auto;
@@ -88,19 +90,13 @@ body{
     margin-top: 1em;
 	display: grid;
     grid-template-rows: 1fr 4fr 4fr 1fr;
-    grid-template-columns: ;
     grid-template-areas: 
         "six six six six"
 		"one two two thr" 
 		"one fou fou fiv" 
         "one fou fou fiv";
-    
 }
-.item{
-    border: 0.5em solid white;
-    
-    
-}
+.item{border: 0.5em solid white;}
 .one { background-image: url(../images/fiv.jpg); background-position: center; background-size: cover;  grid-area: one; }
 .two { background-image: url(../images/taj.jpg); background-position: center; background-size: cover; grid-area: two; }
 .thr { background-image: url(../images/two.jpg);  background-position: center; background-size: cover; grid-area: thr; }
