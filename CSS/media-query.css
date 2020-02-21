@@ -1,0 +1,108 @@
+/* Media-Query */
+
+/* WIDTH 1200 */    
+@media only screen and (max-width:1200px) {
+    .universal-width {
+        max-width: 100%;
+        padding: 0 2%;
+}
+.footer { height: 30em;
+padding: 1%;}
+
+
+@media only screen and (max-width:50em){
+
+    .universal-width {
+        max-width: 100%;
+    }
+
+    .main-head {
+        width: 100%;
+    }
+
+    .nav-wrapper {
+        height: 5em;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .un-list {
+        justify-content: center;
+    }
+
+    .europe-img {
+        height: 20em;
+    }
+    .footer-terms p {
+        margin-right: 1em;
+        font-size: .85em;
+    }
+    .un-list li{
+margin-right: 1em;    }
+
+    .search{
+        bottom: -3em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
+    .input-type{
+        width: 50%;
+        font-size: 1.5em;
+        padding: 0.5em;
+        border-radius: 1em 0 0 1em;
+        border: 0.2em solid var(--col-black);
+        font-family: 'Patrick Hand', cursive;
+    }
+    .binoculars{ background: var(--col-black); border: none; border-radius: 0 1em 1em 0; }
+    .searchimage{ display: block; margin: 0; height: 5em; }
+}}  
+
+@media only screen and (max-width: 600px) {
+    .logo-top {
+        margin: 0 auto;
+        height: 3em;
+    }
+    .logo{
+        margin: 0 auto;
+    }
+    .nav_button {
+        margin: 0 auto;
+    }
+    .main-head {
+        width: 100%;
+    }
+    .login-signup-button {
+        background-color: var(--col-blue);
+        border: solid var(--col-white);
+        color: var(--col-white);
+        padding: 0.32em;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1em;
+        border-radius: 1em;
+        font-family: 'Patrick Hand', cursive;
+    }
+    .header-naivgation {
+        margin: 0 auto;
+    }
+    p{
+        text-align: center;
+        font-family: 'Sriracha', cursive;
+        font-size: 0.5em;
+        font-weight: normal;
+    }
+    .footer{
+        height: 33em;
+        padding: 12%;
+    }
+    .footer-terms img{
+        visibility: hidden;
+    }
+    .footer-terms{        
+        display: block;
+        margin-right: 1em;
+    }
+}

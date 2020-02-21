@@ -3,7 +3,7 @@
 
 .main-head{
     position: relative;
-    background-image: url(../images/background.png);
+    background-image: url(../images/background.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -72,4 +72,3 @@
         /* height:95vh; */
         width: 20em;
     }
-}
