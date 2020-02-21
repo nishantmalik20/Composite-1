@@ -1,0 +1,18 @@
+body{
+    background-image: url(../images/santorini-bg.jpg);
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height:95vh;
+    
+}
+.main-head{
+    height: 100vh;
+}
+.text-orange{color: #ff6e36;}
+.santorini-fromtop{border-radius: 6em;}
+.milorad{
+    color: lightseagreen;
+    font-size: var(--);
+}
