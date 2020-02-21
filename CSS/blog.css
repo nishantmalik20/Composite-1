@@ -14,5 +14,96 @@ body{
 .santorini-fromtop{border-radius: 6em;}
 .milorad{
     color: lightseagreen;
-    font-size: var(--);
+    font-size: 3em;
+    text-align: left;
+    margin-top: auto;
 }
+.milorad-nameimage{
+    display: flex;
+    justify-content: space-around;
+    /* justify-content: space-between; */
+}
+.milorad-nameimage img{
+    border-radius: 10em;
+    height: 6em;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.hover-star{
+    display: flex;
+    width: 4em;
+    margin: 0 1em;
+}
+.hover-star:hover{transform: scale(1.2, 1.2);}
+
+    
+.star-rating-yellow{
+    display: flex;
+    justify-content: center;
+}
+.book-now-button{
+    display: block;
+    background-color: #ff6e36;
+    border: solid var(--col-white);
+    color: var(--col-white);
+    padding: 1em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5em;
+    border-radius: 1.3em;
+    margin: 0 auto;
+    font-family: 'Patrick Hand', cursive;
+}
+
+.book-now-button:hover{
+    transform: scale(1.5, 1.2);
+}
+/* COMMENT BOX */
+.comment-box{
+    display: flex;
+    justify-content: center;
+    margin: 1em auto;
+    box-sizing: border-box;
+    border: solid #ff6e36;
+    border-radius: 0.2em;
+    resize: none;
+    font-size: 2em;
+    font-family: 'Patrick Hand', cursive;
+}
+.submit-cancel{
+    display: flex;
+}
+.comment-london{
+    border: 0.2em solid tomato;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+.comment-name{
+    color: lightseagreen;
+}
+.container {
+	background-color: grey;
+	width: 0 auto;
+    height: 50em;
+    margin-top: 1em;
+	display: grid;
+    grid-template-rows: 1fr 4fr 4fr 1fr;
+    grid-template-columns: ;
+    grid-template-areas: 
+        "six six six six"
+		"one two two thr" 
+		"one fou fou fiv" 
+        "one fou fou fiv";
+    
+}
+.item{
+    border: 0.5em solid white;
+    
+    
+}
+.one { background-image: url(../images/fiv.jpg); background-position: center; background-size: cover;  grid-area: one; }
+.two { background-image: url(../images/taj.jpg); background-position: center; background-size: cover; grid-area: two; }
+.thr { background-image: url(../images/two.jpg);  background-position: center; background-size: cover; grid-area: thr; }
+.fou { background-image: url(../images/thr.jpg);  background-position: center; background-size: cover;   grid-area: fou; }
+.fiv { background-image: url(../images/fou.jpg); background-position: center; background-size: cover;grid-area: fiv; }
+.six { background-color: white;  grid-area: six; font-size: 4em;font-family: 'Patrick Hand', cursive; color: coral; text-align: center; }

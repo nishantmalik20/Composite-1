@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
+
 
 .main-head{
     position: relative;
@@ -56,8 +56,20 @@
 }
 .community-photos{border-radius: 6em; margin-bottom: 1em;}
 
-.social-media{
+/* .social-media{
     width: 3em;
     margin-bottom: 1.5em;
     margin-right: 1em;
+} */
+
+@media screen and (max-width:50em){
+    .main-head{
+        position: relative;
+        background-image: url(../images/background.png);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        /* height:95vh; */
+        width: 20em;
+    }
 }

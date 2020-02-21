@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 
@@ -29,6 +30,12 @@ h3{
     font-family: 'Luckiest Guy', cursive;
     font-size: 2em;
 }
+h4{
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.5em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
 p{
     text-align: center;
     font-family: 'Sriracha', cursive;
@@ -42,6 +49,7 @@ p{
     display: flex;
     height: 7em;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .logo{flex-basis: 10em;}
 
@@ -116,10 +124,19 @@ p{
 .binoculars{ background: var(--col-black); border: none; border-radius: 0 1em 1em 0; }
 .searchimage{ display: block; margin: 0; height: 5em; }
 
+/* MAIN */
+
+/* SocialMedia Icons */
+.social-media{
+    width: 3em;
+    margin-bottom: 1.5em;
+    margin-right: 1em;
+}
+
 /* FOOTER */
 
 .footer{
-    background-color: grey;
+    background-color: var(--col-blue);
     height: 20em;
 }
 .share-logos{
@@ -154,4 +171,25 @@ p{
     display: flex;
     justify-content: space-between;
     margin-right: 1em
+}
+
+/* Media-Query */
+@media screen and (max-width:50em){
+    .search{
+        bottom: -3em;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+    }
+    .input-type{
+        width: 50%;
+        font-size: 1.5em;
+        padding: 0.5em;
+        border-radius: 1em 0 0 1em;
+        border: 0.2em solid var(--col-black);
+        font-family: 'Patrick Hand', cursive;
+    }
+    .binoculars{ background: var(--col-black); border: none; border-radius: 0 1em 1em 0; }
+    .searchimage{ display: block; margin: 0; height: 5em; }
 }
