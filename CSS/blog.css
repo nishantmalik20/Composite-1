@@ -7,15 +7,16 @@ body{
     height:95vh;
     
 }
+/* header */
 .main-head{
     height: 100vh;
 }
-.text-orange{color: #ff6e36;}
+.text-orange{color: var(--col-light-orange);}
 .santorini-fromtop{border-radius: 6em;}
 
 /* BLOG */
 .milorad{
-    color: lightseagreen;
+    color: var(--col-lighseagreen);
     font-size: 3em;
     text-align: left;
     margin-top: auto;
@@ -44,7 +45,7 @@ body{
 }
 .book-now-button{
     display: block;
-    background-color: #ff6e36;
+    background-color: var(--col-light-orange);
     border: solid var(--col-white);
     color: var(--col-white);
     padding: 1em;

@@ -1,14 +1,20 @@
+/********* google fonts **********/
+
 @import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Fugaz+One&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Luckiest+Guy&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Sriracha&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 
+/*root variable for colors */
 :root{
     --col-blue: #3398db;
     --col-white: #fff;
     --col-black: #000;
+    --col-lightseagreen: lightseagreen;
+    --col-light-orange:#ff6e36;
 }
+/* universal classes */
 .universal-width{
     width: 1200px;
     margin: 0 auto;
