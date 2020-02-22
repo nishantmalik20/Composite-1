@@ -7,42 +7,52 @@
 @import url('https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap');
 
 /*root variable for colors */
-:root{
+
+:root {
     --col-blue: #3398db;
     --col-white: #fff;
     --col-black: #000;
     --col-lightseagreen: lightseagreen;
-    --col-light-orange:#ff6e36;
+    --col-light-orange: #ff6e36;
+    --col-tomato: tomato;
 }
+
+
 /* universal classes */
-.universal-width{
+
+.universal-width {
     width: 1200px;
     margin: 0 auto;
 }
-h1{ 
-    margin-top: 1em; 
+
+h1 {
+    margin-top: 1em;
     margin-bottom: 0.5em;
-    text-align: center; 
-    font-size: 5em; 
-    font-family: 'Bebas Neue', cursive; 
+    text-align: center;
+    font-size: 5em;
+    font-family: 'Bebas Neue', cursive;
 }
-h2{
+
+h2 {
     font-size: 3em;
     text-align: center;
     font-family: 'Fugaz One', cursive;
     /* color: lightseagreen; */
 }
-h3{
+
+h3 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 2em;
 }
-h4{
+
+h4 {
     font-family: 'Luckiest Guy', cursive;
     font-size: 1.5em;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-p{
+
+p {
     text-align: center;
     font-family: 'Sriracha', cursive;
     font-size: 1.5em;
@@ -50,30 +60,59 @@ p{
     /* color: #cb975e; */
 }
 
+
 /** Navigation **/
-.nav-wrapper{
+
+.nav-wrapper {
     display: flex;
     height: 7em;
     justify-content: space-between;
     flex-wrap: wrap;
 }
-.logo{flex-basis: 10em;}
 
-.logo-top {height: 4em; margin-top: 1em;}
+.logo {
+    flex-basis: 10em;
+}
+
+.logo-top {
+    height: 4em;
+    margin-top: 1em;
+}
+
 
 /** menu item**/
 
-.header-navigation{flex-basis: 50em;}
+.header-navigation {
+    flex-basis: 50em;
+}
 
-.un-list{display: flex; justify-content: center; margin-top: 1em;}
+.un-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
 
-.nav_menu_img{height: 2em; display: block; margin: auto; margin-top: 0.5em;}
+.nav_menu_img {
+    height: 2em;
+    display: block;
+    margin: auto;
+    margin-top: 0.5em;
+}
 
-.un-list li{margin: 0 3em 0 0;}
+.un-list li {
+    margin: 0 3em 0 0;
+}
 
-.un-list a{ text-decoration: none; font-family: 'Patrick Hand', cursive;}
+.un-list a {
+    text-decoration: none;
+    font-family: 'Patrick Hand', cursive;
+}
 
-.menu-item{ font-size: 1.2em; color: black;}
+.menu-item {
+    font-size: 1.2em;
+    color: black;
+}
+
 
 /* Flights, Restaurents, Hotels, Rentals, More */
 
@@ -88,15 +127,20 @@ p{
     justify-content: center;
     margin-top: 1em;
 }
-.flight_menu_img{
+
+.flight_menu_img {
     height: 7em;
     margin-bottom: 1em;
 }
 
-/** login **/
-.nav_button{ margin-top: 20px;}
 
-.login-signup-button{
+/** login **/
+
+.nav_button {
+    margin-top: 20px;
+}
+
+.login-signup-button {
     background-color: var(--col-blue);
     border: solid var(--col-white);
     color: var(--col-white);
@@ -108,18 +152,27 @@ p{
     border-radius: 1em;
     font-family: 'Patrick Hand', cursive;
 }
-.login-signup-button:first-child {margin-right: 1.25em;}
-.login-signup-button a{ text-decoration: none;}
+
+.login-signup-button:first-child {
+    margin-right: 1.25em;
+}
+
+.login-signup-button a {
+    text-decoration: none;
+}
+
 
 /** search **/
-.search{
+
+.search {
     bottom: -3em;
     width: 100%;
     display: flex;
     justify-content: center;
     position: absolute;
 }
-.input-type{
+
+.input-type {
     width: 25%;
     font-size: 1.5em;
     padding: 0.5em;
@@ -127,55 +180,75 @@ p{
     border: 0.2em solid var(--col-black);
     font-family: 'Patrick Hand', cursive;
 }
-.binoculars{ background: var(--col-black); border: none; border-radius: 0 1em 1em 0; }
-.searchimage{ display: block; margin: 0; height: 5em; }
+
+.binoculars {
+    background: var(--col-black);
+    border: none;
+    border-radius: 0 1em 1em 0;
+}
+
+.searchimage {
+    display: block;
+    margin: 0;
+    height: 5em;
+}
+
 
 /* MAIN */
 
+
 /* SocialMedia Icons */
-.social-media{
+
+.social-media {
     width: 3em;
     margin-bottom: 1.5em;
     margin-right: 1em;
 }
 
+
 /* FOOTER */
 
-.footer{
+.footer {
     background-color: var(--col-blue);
     height: 20em;
 }
-.share-logos{
+
+.share-logos {
     display: flex;
 }
-.share-logos img{
-   width: 3em;
-   margin: 0.5em;
+
+.share-logos img {
+    width: 3em;
+    margin: 0.5em;
 }
-.share-via{
+
+.share-via {
     display: flex;
 }
-.rebrand{
+
+.rebrand {
     display: flex;
     justify-content: space-between;
 }
-.rebrand img :first-child{
+
+.rebrand img :first-child {
     margin: 0.5em;
     height: 5em;
 }
+
 .share-via p {
     display: block;
     margin: 0 auto;
 }
 
-.footer-terms p{
+.footer-terms p {
     display: block;
     font-size: 0.9em;
     margin-right: 14em;
 }
-.footer-terms{
+
+.footer-terms {
     display: flex;
     justify-content: space-between;
     margin-right: 1em
 }
-
